@@ -1,0 +1,83 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+<head>
+    <title>Update movie</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- load bootstrap via CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+    "></script> <!-- load jquery via CDN -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="/js/updateMovie.js">
+    </script> <!-- load our javascript file -->
+</head>
+
+<body>
+    <div class="col-sm-6 col-sm-offset-3">
+
+        <h1>Update movie</h1>
+
+        <!-- OUR FORM -->
+        <form id="user_form" name="user_form" method="POST">
+
+
+            <!-- NAME -->
+            <div id="name-group" class="form-group">
+                <label for="name">Movie name</label>
+                <input type="text" class="form-control" name="name" id="moviename" placeholder="write the movie name here">
+                <!-- errors will go here -->
+            </div>
+
+
+            <!-- picture Link -->
+            <div id="picture-group" class="form-group">
+                <label for="pictureLink">picture Link</label>
+                <input type="link" class="form-control" name="picture Link" id="picture"
+                    placeholder="write link here" >
+                <!-- errors will go here -->
+            </div>
+
+
+            <!-- director -->
+            <div id="director-group" class="form-group">
+                <label for="director">director</label>
+                <input type="text" class="form-control" name="profession" id="director"
+                    placeholder="write director here">
+                <!-- errors will go here -->
+            </div>
+
+            <!-- DATE -->
+            <div id="date-group" class="form-group">
+                <label for="date">date</label>
+                <input type="date" class="form-control" name="date" id="date">
+                <!-- errors will go here -->
+            </div>
+
+
+             <!-- rating -->
+             <div id="name-group" class="form-group">
+                <label for="rating">Movie rating</label>
+                <input type="number" min="0" max="10" class="form-control" name="name" id="movieRating" placeholder="write the movie rating here">
+                <!-- errors will go here -->
+            </div>
+
+
+            <!-- isSeries -->
+            <div id="isSeries-group" class="form-group">
+                <label for="isSeries">Series or movie</label>
+                <select class="form-control" name="Series or movie" id="isSeries">
+                    <option value="movie">Movie</option>
+                    <option value="series">Series</option>            
+                </select>
+                <!-- errors will go here -->
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
+

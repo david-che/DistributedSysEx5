@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!doctype html>
+<html>
+<head>
+    <title>ADD actor</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- load bootstrap via CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+    "></script> <!-- load jquery via CDN -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="/js/addActor.js">
+    </script> <!-- load our javascript file -->
+</head>
+
+<body>
+    <div class="col-sm-6 col-sm-offset-3">
+
+        <h1>add new actor</h1>
+
+        <!-- OUR FORM -->
+        <form id="user_form" name="user_form" method="POST">
+
+            <!-- NAME -->
+            <div id="name-group" class="form-group">
+                <label for="name">Actor name</label>
+                <input type="text" class="form-control" name="name" id="actor-name" placeholder="write the actor name here"
+                    required>
+                <!-- errors will go here -->
+            </div>
+
+            <!-- picture -->
+            <div id="actor-picture-group" class="form-group">
+                <label for="name">Actor picture link</label>
+                <input type="text" class="form-control" name="actor-picture" id="actor-picture" placeholder="write the link to the actor image here"
+                    required>
+                <!-- errors will go here -->
+            </div>
+
+            <!-- site -->
+            <div id="actor-site-group" class="form-group">
+                <label for="actor-site">Actor site url</label>
+                <input type="text" class="form-control" name="actor-site" id="actor-site" placeholder="write the actor site url name here"
+                    required>
+                <!-- errors will go here -->
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movies list</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- load bootstrap via CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="/js/list.js"></script>
+    </head>
+    <body >
+        <div>
+            <label for="">sort by</label>
+            <select class="form-control" name="sort by" id="sortBy">
+                <option value="date">Date</option>
+                <option value="name">Name</option>
+                <option value="rating">Rating</option>
+            </select>
+            <label for="">sort order</label>
+            <select class="form-control" name="sort order" id="sortOrder">
+                <option value="descending">Descending</option>
+                <option value="ascending">Ascending</option>
+            </select>
+
+
+        </div>
+        <button type="button" class="btn btn-primary addMoviebtn" >add movie</button>
+        <ul id="movie_list">
+        </ul>
+        <button type="button" class="btn btn-primary addMoviebtn" >add movie</button>
+    </body>
+</html>

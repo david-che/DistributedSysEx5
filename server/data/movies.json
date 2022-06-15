@@ -1,0 +1,60 @@
+{
+  "eeeeeeeeeeeeeeeee": {
+    "id?": "eeeeeeeeeeeeeeeee",
+    "name": "movie name",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Dumeril%27s_Madagascar_ground_boa_%28Acrantophis_dumerili%29_male_Reniala.jpg",
+    "director": "director name",
+    "date": "01-10-2021",
+    "rating": 5,
+    "isSeries": true,
+    "series_details": [
+      10,
+      12,
+      13
+    ],
+    "actors": {
+      "actor_1_name": {
+        "name?": "actor_1_name",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mosquitofish.jpg",
+        "site": "url"
+      },
+      "actor_2_name": {
+        "name?": "actor_2_name",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/ba/African_wild_dog_%28Lycaon_pictus_pictus%29.jpg",
+        "site": "url"
+      },
+      "new_actor": {
+        "name?": "new_actor",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cephalophus_sylvicultor_sylvicultor2.jpg",
+        "site": "url"
+      },
+      "bew_actor": {
+        "name?": "bew_actor",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+        "site": "url"
+      }
+    }
+  },
+  "add": {
+    "id?": "add",
+    "name": "new",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/7/74/Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg",
+    "director": "wwwwwwwwwwwwwwwwwwwwpoerjkgopwjeroigtjhwretoijgoirhjn",
+    "date": "19-05-2202",
+    "rating": "9",
+    "actors": {},
+    "isSeries": false,
+    "series_details": ""
+  },
+  "fix date": {
+    "id?": "fix date",
+    "name": "ww",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/8/80/Davidraju_IMG_7365.jpg",
+    "director": "asas",
+    "date": "12-05-2022",
+    "rating": "3",
+    "actors": {},
+    "isSeries": false,
+    "series_details": ""
+  }
+}
