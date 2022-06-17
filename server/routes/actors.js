@@ -37,12 +37,16 @@ router.post('/actors/:movie_id/:actor_id', (req, res)=> {
                     //add the requested actor from the actors array
                     let addToMovie=actors[0]["actors"].filter(actor=> actor!=req.params.actor_id);
                     addToMovie.append(req.body.actor_id);
-                    //update the db after the actor after adding the actor
+                    //update the db after adding the actor
                         Movie.findByIdAndUpdate(req.params.movie_id,{actors:updatedActors}).then(
                             res.status(200).send({actors:updatedActors})
                         ).catch(e => {
                             res.status(400).send(e)
-                        });                
+                        });
+                }else{
+                    res.status(400).send("movie is not exist")
+                }
+            });                
         }else{
             res.status(400).send("movie is not exist")
         }
